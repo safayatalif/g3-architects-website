@@ -1,18 +1,23 @@
 /* font style link  */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&family=Work+Sans:wght@500&display=swap');
+
 /* -------------
 common style 
 ----------- */
-body{
+body {
     margin: 0px;
 }
+
 /*-------------------
  G3 Architects navbar section style 
  ------------------------------------- */
-.container{
-    background-color: rgba(255, 144, 14, 0.1);;
+.container {
+    background-color: rgba(255, 144, 14, 0.1);
+    width: 100%;
+    height: 100%;
 }
- .top-navbar-section {
+
+.top-navbar-section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
@@ -68,4 +73,109 @@ li a {
     border-radius: 8px;
     width: 100%;
     height: 100%;
+}
+
+/*------------------------------------
+ Quick list of Our Features section style   
+ ---------------------------------------*/
+.quick-list-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 73px;
+    margin-top: 85px;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.quick-list-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 24px;
+    width: 100%;
+}
+
+/* .quick-list-info {
+
+} */
+
+.quick-list-title {
+    font-size: 45px;
+    margin-bottom: 24px;
+}
+
+.quick-list-description {
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 32px;
+}
+
+#color-grea {
+    color: #727272;
+}
+
+#color-black {
+    color: #131313;
+}
+
+#color-orange {
+    color: #FF900E;
+}
+
+/* ---------------------------
+Features you will love & enjoy section style-
+--------------------------------- */
+.futures-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 45px;
+    margin-top: 130px;
+}
+
+.futures-container {
+    padding: 10px;
+}
+
+.futures {
+    margin-left: 15px;
+    margin-bottom: 30px;
+}
+
+.futures-title {
+    font-size: 45px;
+    color: #131313;
+    width: 468px;
+    border-left: 5px solid #FF900E;
+    padding-left: 21px;
+}
+
+.futures-description {
+    font-size: 16px;
+    color: #727272;
+}
+
+.future {
+    width: 586px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 35px;
+    margin-left: 30px;
+}
+
+.future-title {
+    font-size: 20px;
+    color: #131313;
+}
+
+.future-description {
+    font-size: 16px;
+    color: #727272;
+}
+.btn-title{
+    font-size: 50px;
+}
+.btn-description{
+    font-size: 16px;
 }
