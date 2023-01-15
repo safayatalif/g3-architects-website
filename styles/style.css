@@ -130,6 +130,7 @@ Features you will love & enjoy section style-
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 45px;
     margin-top: 130px;
+    position: relative;
 }
 
 .futures-container {
@@ -173,9 +174,65 @@ Features you will love & enjoy section style-
     font-size: 16px;
     color: #727272;
 }
+.btn-position{
+    position: absolute;
+    left: 660px;
+    top:860px
+}
 .btn-title{
     font-size: 50px;
 }
 .btn-description{
     font-size: 16px;
+}
+/* Some Facts section style  */
+.some-fact{
+    margin-top: 130px;
+    margin-left: 30px;
+    margin-bottom: 110px;
+}
+.some-fact-title{
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 24px;
+}
+.some-fact-description{
+    font-size: 16px;
+    color: #727272;
+}
+/* ------------------
+blogs section style 
+-------------------- */
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    grid-gap: 110px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.blog{
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+
+}
+.blog-title{
+    font-size: 45px;
+    color: #424242;
+    margin-top: 10px;
+    margin-bottom: 5px;
+
+}
+.blog-description{
+    font-size: 20px;
+    color: #727272;
+}
+.blog:hover{
+    background-color: #FF900E;
+    transform: skewX(20deg);
+    transition : transform ease-in 1.5s;
+    box-shadow: 5px 4px 30px #0000000f;
 }
