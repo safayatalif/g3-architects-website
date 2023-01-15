@@ -11,14 +11,10 @@ body {
 /*-------------------------------------
  -------------G3 Architects navbar section style-------- 
  ---------------------------------------------------- */
-.container {
+.containers {
     background-color: rgba(255, 144, 14, 0.1);
-    width: 100%;
-    height: 100%;
 }
-.bg-position{
-    padding:0px 100px 100px 100px;
-}
+
 
 .top-navbar-section {
     display: grid;
@@ -37,6 +33,7 @@ body {
     display: flex;
     gap: 45px;
     list-style: none;
+    justify-content: space-around;
 
 }
 
@@ -133,7 +130,7 @@ li a {
 .futures-section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 45px;
+    grid-gap: 30px;
     margin-top: 130px;
 }
 
@@ -149,9 +146,10 @@ li a {
 .futures-title {
     font-size: 45px;
     color: #131313;
-    width: 468px;
+    width: 100%;
     border-left: 5px solid #FF900E;
     padding-left: 21px;
+    padding-bottom: 45px;
 }
 
 .futures-description {
@@ -160,12 +158,12 @@ li a {
 }
 
 .future {
-    width: 586px;
+    width: 90%;
     background: #FFFFFF;
     box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
     border-radius: 8px;
     padding: 10px;
-    margin-bottom: 35px;
+    margin-bottom: 20px;
     margin-left: 30px;
 }
 
@@ -178,48 +176,68 @@ li a {
     font-size: 16px;
     color: #727272;
 }
-.btn-position{
+
+.futures-img {
+    width: 90%;
+}
+
+.btn-position {
     position: absolute;
 }
-.position{
-    position: absolute;
-    left: 660px;
-    top :850px;
+
+.position {
+    position: relative;
+    left: 520px;
+    top: 900px;
+    background: #FF900E;
+    border-radius: 8px;
+    padding: 10px;
+    border: none;
+    color: white;
 }
-.btn-title{
-    font-size: 50px;
+
+.btn-title {
+    font-size: 42px;
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
-.btn-description{
+
+.btn-description {
     font-size: 16px;
 }
+
 /*-----------------------------------
 --------------------- Some Facts section style ---------
 --------------------------------------------------------- */
-.some-fact{
+.some-fact {
     margin-top: 130px;
     margin-left: 30px;
     margin-bottom: 110px;
 }
-.some-fact-title{
+
+.some-fact-title {
     font-size: 45px;
     color: #131313;
     margin-bottom: 24px;
 }
-.some-fact-description{
+
+.some-fact-description {
     font-size: 16px;
     color: #727272;
 }
+
 /* -------------------------------------------------------------
 ------------------------blogs section style ------------------
 --------------------------------------------------------------- */
-.blogs{
+.blogs {
     display: grid;
-    grid-template-columns: repeat(4 , 1fr);
-    grid-gap: 110px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 60px;
     margin-left: 50px;
     margin-right: 50px;
 }
-.blog{
+
+.blog {
     border: 1px solid #FF900E;
     border-radius: 8px;
     align-items: center;
@@ -228,65 +246,172 @@ li a {
     padding: 30px;
 
 }
-.blog-title{
+
+.blog-title {
     font-size: 45px;
     color: #424242;
     margin-top: 10px;
     margin-bottom: 5px;
 
 }
-.blog-description{
+
+.blog-description {
     font-size: 20px;
     color: #727272;
 }
-.blog:hover{
+
+.blog:hover {
     background-color: #FF900E;
     transform: skewX(20deg);
-    transition : transform ease-in 1.5s;
-    box-shadow: 5px 4px 30px #0000000f;
+    transition: transform ease-in 1.5s;
 }
+
 /*--------------------------------------
 --------- Our Sponsors section style----------
 ----------------------------------------------  */
-.our-sponsors{
- align-items: center;
- justify-content: center;
- text-align: center;
- margin-top: 120px;
+.our-sponsors {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 120px;
 }
-.our-sponsor-title{
+
+.our-sponsor-title {
     font-size: 45px;
     color: #131313;
     margin-bottom: 24px;
 }
-.our-sponsor-description{
+
+.our-sponsor-description {
     font-size: 16px;
     color: #727272;
 }
-.our-sponsors-img{
+
+.our-sponsors-img {
     display: grid;
-    grid-template-columns: repeat(5 , 1fr);
-    grid-gap: 130px;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 90px;
     margin-left: 50px;
     margin-right: 50px;
     margin-top: 50px;
 }
+
 /* -------------------------------------
 -------------------Extra section style  ----------
 ----------------------------------------------------------------*/
-.extra-section{
+.extra-section {
+    border: 5px solid salmon;
+    border-radius: 8px;
+    margin: 150px;
+    background-image: url(../images/extra.png);
+    background-repeat: no-repeat;
+    width: 80%;
+}
+
+.contact {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    text-align: center;
+    justify-content: center;
+    gap: 15px;
+    height: 300px;
+}
+
+.contact-title {
+    font-size: 30px;
+    color: #ffffff;
+}
+
+
+/* footer section style  */
+.footer {
+    background: #FFF4E7;
+    border-radius: 8px;
+    width: 80%;
     margin-left: 100px;
     margin-right: 100px;
-    margin-top: 120px;
 }
-.extra-bg{
-    background-image: linear-gradient(90deg, #8c259a 0%, rgba(0, 95, 172, 0) 100%), url(../images/extra.png);
-    border-radius: 8px;
-    background-repeat: no-repeat;
-    background-size: cover;
+
+.footer-description {
+    font-size: 20px;
+    text-align: center;
+    padding-top:50px;
+    padding-bottom: 50px;
+
 }
-.extra-title{
-    font-size: 40px;
-    color: #FFFFFF;
-    padding: 100px 600px 100px 100px;
+
+/* ------------------------------
+-------------mobile devise media quarry ------------
+--------------------------------------------------- */
+@media screen and (max-width:576px) {
+    .top-navbar-section {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0px;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+    }
+
+    .quick-list-section {
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 0;
+
+    }
+
+    .quick-list-img {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 24px;
+        width: 100%;
+        margin-left: 10px;
+    }
+
+    .futures-section {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .position {
+        position: relative;
+        left: 0px;
+        top: 1650px;
+    }
+
+    .future {
+        width: 85%;
+        margin: auto;
+    }
+
+    .futures {
+        width: 90%;
+        margin: auto;
+    }
+
+    .futures-img img {
+        width: 100%;
+    }
+
+    .blogs {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 60px;
+    }
+
+    .our-sponsors {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .our-sponsors-img {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 90px;
+    }
+
+    .footer{
+        margin: auto;
+    }
+    .extra-section{
+        margin:100px 5px ;
+    }
+
+
 }
