@@ -7,41 +7,33 @@ common style
 body {
     margin: 0px;
 }
-
 /*-------------------------------------
  -------------G3 Architects navbar section style-------- 
  ---------------------------------------------------- */
 .containers {
     background-color: rgba(255, 144, 14, 0.1);
 }
-
-
 .top-navbar-section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     margin: 0 100px;
-
 }
 
 .top-section-title {
     font-size: 45px;
     color: #131313;
 }
-
 .navbar ul {
     display: flex;
     gap: 45px;
     list-style: none;
     justify-content: space-around;
-
 }
-
 li a {
     text-decoration: none;
     color: #424242;
 }
-
 /*-----------------------------------------------------
 ----------------------- header info section style ------
 -------------------------------------------------------- */
@@ -50,17 +42,14 @@ li a {
     justify-content: center;
     text-align: center;
 }
-
 .header-info-title {
     font-size: 64px;
     margin-bottom: 32px;
 }
-
 .header-info-description {
     font-size: 16px;
     margin-bottom: 32px;
 }
-
 .btn-primary {
     background: #FF900E;
     border-radius: 8px;
@@ -70,13 +59,11 @@ li a {
     color: white;
     margin-bottom: 50px;
 }
-
 .header-info-img {
     border-radius: 8px;
     width: 100%;
     height: 100%;
 }
-
 /*-----------------------------------------------
  -------------Quick list of Our Features section style-------
  --------------------------------------------------------------*/
@@ -89,18 +76,15 @@ li a {
     margin-left: 100px;
     margin-right: 100px;
 }
-
 .quick-list-img {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 24px;
     width: 100%;
 }
-
 /* .quick-list-info {
 
 } */
-
 .quick-list-title {
     font-size: 45px;
     margin-bottom: 24px;
@@ -306,8 +290,8 @@ li a {
     background-image: url(../images/extra.png);
     background-repeat: no-repeat;
     width: 80%;
+    background-size: cover;
 }
-
 .contact {
     display: grid;
     grid-template-rows: repeat(4, 1fr);
@@ -316,14 +300,13 @@ li a {
     gap: 15px;
     height: 300px;
 }
-
 .contact-title {
     font-size: 30px;
     color: #ffffff;
 }
-
-
-/* footer section style  */
+/*------------------- ------------
+---------------footer section style-----------
+---------------------------------------------  */
 .footer {
     background: #FFF4E7;
     border-radius: 8px;
@@ -335,7 +318,7 @@ li a {
 .footer-description {
     font-size: 20px;
     text-align: center;
-    padding-top:50px;
+    padding-top: 50px;
     padding-bottom: 50px;
 
 }
@@ -343,7 +326,7 @@ li a {
 /* ------------------------------
 -------------mobile devise media quarry ------------
 --------------------------------------------------- */
-@media screen and (max-width:576px) {
+@media screen and (max-width:480px) {
     .top-navbar-section {
         grid-template-columns: repeat(1, 1fr);
         margin: 0px;
@@ -406,11 +389,12 @@ li a {
         grid-gap: 90px;
     }
 
-    .footer{
+    .footer {
         margin: auto;
     }
-    .extra-section{
-        margin:100px 5px ;
+
+    .extra-section {
+        margin: 100px 5px;
     }
 
 
