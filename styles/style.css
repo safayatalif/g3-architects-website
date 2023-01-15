@@ -8,13 +8,16 @@ body {
     margin: 0px;
 }
 
-/*-------------------
- G3 Architects navbar section style 
- ------------------------------------- */
+/*-------------------------------------
+ -------------G3 Architects navbar section style-------- 
+ ---------------------------------------------------- */
 .container {
     background-color: rgba(255, 144, 14, 0.1);
     width: 100%;
     height: 100%;
+}
+.bg-position{
+    padding:0px 100px 100px 100px;
 }
 
 .top-navbar-section {
@@ -42,7 +45,9 @@ li a {
     color: #424242;
 }
 
-/* header info section style  */
+/*-----------------------------------------------------
+----------------------- header info section style ------
+-------------------------------------------------------- */
 .header-info {
     align-items: center;
     justify-content: center;
@@ -75,9 +80,9 @@ li a {
     height: 100%;
 }
 
-/*------------------------------------
- Quick list of Our Features section style   
- ---------------------------------------*/
+/*-----------------------------------------------
+ -------------Quick list of Our Features section style-------
+ --------------------------------------------------------------*/
 .quick-list-section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -122,15 +127,14 @@ li a {
     color: #FF900E;
 }
 
-/* ---------------------------
-Features you will love & enjoy section style-
---------------------------------- */
+/* ------------------------------------------
+----------Features you will love & enjoy section style------
+------------------------------------------------------------- */
 .futures-section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 45px;
     margin-top: 130px;
-    position: relative;
 }
 
 .futures-container {
@@ -176,8 +180,11 @@ Features you will love & enjoy section style-
 }
 .btn-position{
     position: absolute;
+}
+.position{
+    position: absolute;
     left: 660px;
-    top:860px
+    top :850px;
 }
 .btn-title{
     font-size: 50px;
@@ -185,7 +192,9 @@ Features you will love & enjoy section style-
 .btn-description{
     font-size: 16px;
 }
-/* Some Facts section style  */
+/*-----------------------------------
+--------------------- Some Facts section style ---------
+--------------------------------------------------------- */
 .some-fact{
     margin-top: 130px;
     margin-left: 30px;
@@ -200,9 +209,9 @@ Features you will love & enjoy section style-
     font-size: 16px;
     color: #727272;
 }
-/* ------------------
-blogs section style 
--------------------- */
+/* -------------------------------------------------------------
+------------------------blogs section style ------------------
+--------------------------------------------------------------- */
 .blogs{
     display: grid;
     grid-template-columns: repeat(4 , 1fr);
@@ -235,4 +244,49 @@ blogs section style
     transform: skewX(20deg);
     transition : transform ease-in 1.5s;
     box-shadow: 5px 4px 30px #0000000f;
+}
+/*--------------------------------------
+--------- Our Sponsors section style----------
+----------------------------------------------  */
+.our-sponsors{
+ align-items: center;
+ justify-content: center;
+ text-align: center;
+ margin-top: 120px;
+}
+.our-sponsor-title{
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 24px;
+}
+.our-sponsor-description{
+    font-size: 16px;
+    color: #727272;
+}
+.our-sponsors-img{
+    display: grid;
+    grid-template-columns: repeat(5 , 1fr);
+    grid-gap: 130px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+/* -------------------------------------
+-------------------Extra section style  ----------
+----------------------------------------------------------------*/
+.extra-section{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 120px;
+}
+.extra-bg{
+    background-image: linear-gradient(90deg, #8c259a 0%, rgba(0, 95, 172, 0) 100%), url(../images/extra.png);
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.extra-title{
+    font-size: 40px;
+    color: #FFFFFF;
+    padding: 100px 600px 100px 100px;
 }
